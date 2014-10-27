@@ -1,0 +1,87 @@
+<html>
+<head>
+<link href="font-awesome.css" rel="stylesheet">
+<link href="keyBRZ.css" rel="stylesheet" type="text/css" />
+<script src="keyBRZ.js"></script>
+</head>
+
+<body>
+
+<div id ="left"></div>
+<div id="textList">
+<ul></ul>
+</div>
+<div id="wrap">
+<div id="keyboard">
+<div id="keyboard-keyset">
+<div id="keyboard-preview">
+<input type="text" id="content" onkeydown="pressIt(event)" onkeyup="unPressIt(event)"/>
+<!--onkeyup="unPressIt(event)"-->
+</div>
+<button  class="keyboard-button"  id = "b192" onclick="writeMe(this);">`</button>
+<button  class="keyboard-button" id="b49" onclick="writeMe(this);">1</button>
+<button  class="keyboard-button" id ="b50" onclick="writeMe(this);">2</button>
+<button  class="keyboard-button" id ="b51" onclick="writeMe(this);">3</button>
+<button  class="keyboard-button" id ="b52" onclick="writeMe(this);">4</button>
+<button  class="keyboard-button" id ="b53" onclick="writeMe(this);">5</button>
+<button  class="keyboard-button" id ="b54" onclick="writeMe(this);">6</button>
+<button  class="keyboard-button" id ="b55"onclick="writeMe(this);">7</button>
+<button  class="keyboard-button" id ="b56" onclick="writeMe(this);">8</button>
+<button  class="keyboard-button" id ="b57" onclick="writeMe(this);">9</button>
+<button  class="keyboard-button" id ="b48" onclick="writeMe(this);">0</button>
+<button  class="keyboard-button" id ="b45" onclick="writeMe(this);">-</button>
+<button  class="keyboard-button" id="b61" onclick="writeMe(this);">=</button>
+<button  class="keyboard-button op" id="b8" onclick="bSpaceIt();">Bksp</button>
+</br>
+<button  class="keyboard-button op" id="b9" onclick="tabIt()">Tab</button>
+<button  class="keyboard-button" id="b81" onclick="writeMe(this);">q</button>
+<button  class="keyboard-button" id="b87" onclick="writeMe(this);">w</button>
+<button  class="keyboard-button" id="b69" onclick="writeMe(this);">e</button>
+<button  class="keyboard-button" id="b82" onclick="writeMe(this);">r</button>
+<button  class="keyboard-button" id="b84" onclick="writeMe(this);">t</button>
+<button  class="keyboard-button" id="b89" onclick="writeMe(this);">y</button>
+<button  class="keyboard-button" id="b85" onclick="writeMe(this);">u</button>
+<button  class="keyboard-button" id="b73" onclick="writeMe(this);">i</button>
+<button  class="keyboard-button" id="b79" onclick="writeMe(this);">o</button>
+<button  class="keyboard-button" id="b80" onclick="writeMe(this);">p</button>
+<button  class="keyboard-button" id="b91" onclick="writeMe(this);">[</button>
+<button  class="keyboard-button" id="b93" onclick="writeMe(this);">]</button>
+<button  class="keyboard-button" id="b92" onclick="writeMe(this);">\</button>
+</br>
+<button  class="keyboard-button" id="b65" onclick="writeMe(this);">a</button>
+<button  class="keyboard-button" id="b83" onclick="writeMe(this);">s</button>
+<button  class="keyboard-button" id="b68" onclick="writeMe(this);">d</button>
+<button  class="keyboard-button" id="b70" onclick="writeMe(this);">f</button>
+<button  class="keyboard-button" id="b71" onclick="writeMe(this);">g</button>
+<button  class="keyboard-button" id="b72" onclick="writeMe(this);">h</button>
+<button  class="keyboard-button" id="b74" onclick="writeMe(this);">j</button>
+<button  class="keyboard-button" id="b75" onclick="writeMe(this);">k</button>
+<button  class="keyboard-button" id="b76" onclick="writeMe(this);">l</button>
+<button  class="keyboard-button" id="b59;" onclick="writeMe(this);">;</button>
+<button  class="keyboard-button" id="b39" onclick="writeMe(this);">'</button>
+<button  class="keyboard-button op" id="b13" onclick="enterIt();">Enter</button>
+</br>
+<button  class="keyboard-button op" id="b16" onclick="shiftIt();">Shift</button>
+<button  class="keyboard-button" id="b90" onclick="writeMe(this);">z</button>
+<button  class="keyboard-button" id="b88" onclick="writeMe(this);">x</button>
+<button  class="keyboard-button" id="b67" onclick="writeMe(this);">c</button>
+<button  class="keyboard-button" id="b86" onclick="writeMe(this);">v</button>
+<button  class="keyboard-button" id="b66" onclick="writeMe(this);">b</button>
+<button  class="keyboard-button" id="b78" onclick="writeMe(this);">n</button>
+<button  class="keyboard-button" id="b77" onclick="writeMe(this);">m</button>
+<button  class="keyboard-button" id="b44" onclick="writeMe(this);">,</button>
+<button  class="keyboard-button" id="b46" onclick="writeMe(this);">.</button>
+<button  class="keyboard-button" id="b7" onclick="writeMe(this);">/</button>
+<button  class="keyboard-button op" id="b17" onclick="shiftIt();">Ctrl</button>
+</br>
+<button  class="keyboard-button op" id="b18" onclick="altIt();">Alt</button>
+<button  class="keyboard-button op" id="bAccept" onclick="accept(event);">Accept</button>
+<button  class="keyboard-button" id="b32" onclick="spaceIt();">&nbsp &nbsp &nbsp &nbsp </button>
+<button  class="keyboard-button op" id="bCancel" onclick="cancel();">Cancel</button>
+</br>
+</div>
+</div>
+</div>
+
+</body>
+</html>
